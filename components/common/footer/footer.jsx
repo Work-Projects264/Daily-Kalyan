@@ -55,7 +55,7 @@ const Footer = () => {
               <span className="footerTabs whatsappcolor">Whats App</span>
             </div>
           </Link>
-          {/* <Link onClick={handleClick} href={"https://backend.jodiplay.com/logo/Jodi_Play.apk"}>
+          {/* <Link onClick={handleClick} href={"https://backend.jodiplay.com/logo/daily_kalyan.apk"}>
             <div className="d-flex align-items-center justify-content-center flex-column">
               <img style={{ background: 'none', backgroundColor: 'transparent', backgroundImage: 'none' }} src={'/download.jpeg'} alt="Jodi Play Download App" />
               <span style={{backgroundColor: 'red'}}className="footerTabs">Download Now</span>

@@ -15,7 +15,7 @@ export default function GaliDisawarSattaMatka() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -46,7 +46,7 @@ export default function GaliDisawarSattaMatka() {
         <section className="content">
           <h2>A Satta Matka Game to Play</h2>
           <p>
-            Welcome to JodiPlay! Today, we will talk about two exciting Satta Matka games: Gali and Disawar. These games are popular among players who love to guess numbers and win big. You can play these games online through our website or our <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">app</a>. For more games, check out <Link href="https://jodiplay.com/karnataka-day">Karnataka Day</Link> and <Link href="https://jodiplay.com/madhur-morning">Madhur Morning</Link>.
+            Welcome to JodiPlay! Today, we will talk about two exciting Satta Matka games: Gali and Disawar. These games are popular among players who love to guess numbers and win big. You can play these games online through our website or our <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">app</a>. For more games, check out <Link href="https://jodiplay.com/karnataka-day">Karnataka Day</Link> and <Link href="https://jodiplay.com/madhur-morning">Madhur Morning</Link>.
           </p>
 
           <div className="d-flex justify-content-center my-4">

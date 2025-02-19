@@ -16,7 +16,7 @@ export default function KalyanMatka() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -107,7 +107,7 @@ export default function KalyanMatka() {
           <ul>
             <li><strong>Instant Results:</strong> Get real-time updates faster than any other platform.</li>
             <li><strong>Intuitive Design:</strong> Enjoy seamless navigation across all devices.</li>
-            <li><strong>Mobile Gaming:</strong> Play on-the-go with our feature-rich mobile app. <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">Download the App</a> now!</li>
+            <li><strong>Mobile Gaming:</strong> Play on-the-go with our feature-rich mobile app. <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">Download the App</a> now!</li>
             <li><strong>Diverse Markets:</strong> Explore a wide range of Matka games beyond Kalyan, including <a href="https://jodiplay.com/milan-morning">Milan Morning</a> and <a href="https://jodiplay.com/rudraksh-morning">Rudraksh Morning</a>.</li>
             <li><strong>Bulletproof Security:</strong> Rest easy with our state-of-the-art data protection measures.</li>
           </ul>

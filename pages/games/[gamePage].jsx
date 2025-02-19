@@ -90,7 +90,7 @@ const gamePage = () => {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   };
 
   const handleChange = (field, value, allData, setAllData, errors) => {

@@ -24,7 +24,7 @@ export default function Document() {
     operatingSystem: "iOS, Android",
     applicationCategory: "Game",
     url: "https://jodiplay.com/",
-    downloadUrl: "https://backend.jodiplay.com/logo/Jodi_Play.apk",
+    downloadUrl: "https://backend.jodiplay.com/logo/daily_kalyan.apk",
     description:
       "JodiPlay is an exciting online Satta Matka app offering fast gameplay, live results, and engaging features for Matka enthusiasts.",
     offers: {

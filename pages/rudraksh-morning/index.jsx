@@ -16,7 +16,7 @@ export default function RudrakshMorning() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -144,7 +144,7 @@ export default function RudrakshMorning() {
           <ul>
             <li>Fast Results: Get live results without waiting long.</li>
             <li>Easy to Use: The platform is simple and can be used on any device – phone, tablet, or computer.</li>
-            <li>Play Anywhere: Use the <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk" className="link">JodiPlay app</a> to play online from anywhere.</li>
+            <li>Play Anywhere: Use the <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk" className="link">JodiPlay app</a> to play online from anywhere.</li>
             <li>Multiple Markets: You can enjoy not just Rudraksh Morning, but other bazar games like Gali, Desawar, and more.</li>
             <li>Secure and Reliable: Your information is safe with <a href="https://jodiplay.com" className="link">JodiPlay</a>. The platform is trustworthy and offers a smooth experience for all players.</li>
           </ul>

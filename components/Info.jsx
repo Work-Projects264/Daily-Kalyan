@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import FAQ from "./FAQ/FAQ";
 import BlogSlider from "./common/blogslider";
 import styles from "../styles/Home.module.css";
+import TrustedSection from "./TrustedSection";
+import TestimonialInterface from "./Testimonial-Interface";
 
 const Info = () => {
   const router = useRouter();
@@ -14,6 +16,29 @@ const Info = () => {
     <>
       {!isLoggedIn ? (
         <div className="container mx-auto p-4">
+          <section className="mb-14">
+          <img
+                  src="certificate.webp"
+                  alt="certificate"
+                  className="mt-4"
+                  style={{ width: "95%" }}
+                />
+          </section>
+          <section className="mb-14 relative">
+            <img
+              src="/app-rating.png"
+              alt="App rating"
+              className="w-full h-auto rounded-lg shadow-lg border-2 border-yellow-500"
+            />
+          <section className="mb-4 mt-9">
+            <TrustedSection />
+          </section>
+            <div className="absolute inset-0 bg-yellow-500 opacity-10 blur-3xl"></div>
+          </section>
+          <section className="mb-8">
+            <TestimonialInterface />
+          </section>
+
           <div className="bg-gray-900 text-white p-6 rounded-lg shadow-md border-4 border-goldenrod  mt-4 mb-4">
             <section className="mb-8">
               <h1 className="text-3xl font-bold text-yellow-400 stake-font">
@@ -25,8 +50,8 @@ const Info = () => {
                 your reliable and secure platform for online Matka games. From
                 Gali and Desawar to Kalyan, Milan, Rajdhani, and more, we offer
                 a variety of games to suit your preferences. Whether you're a
-                beginner or a seasoned player, DAILY KALYAN is your go-to
-                online Matka app for a thrilling and seamless experience.
+                beginner or a seasoned player, DAILY KALYAN is your go-to online
+                Matka app for a thrilling and seamless experience.
               </p>
             </section>
 
@@ -84,7 +109,8 @@ const Info = () => {
               </h2>
               <ol className="list-decimal pl-5 mt-4">
                 <li className="text-gray-300 leading-relaxed mb-2">
-                  <strong>Download the DAILY KALYAN app</strong> from our website.
+                  <strong>Download the DAILY KALYAN app</strong> from our
+                  website.
                 </li>
                 <li className="text-gray-300 leading-relaxed mb-2">
                   <strong>Sign up,</strong> fill in your details, and make a
@@ -114,6 +140,7 @@ const Info = () => {
               </p>
             </section>
           </div>
+          {/* Trusted Section */}
 
           {/* FAQ Section */}
           <section className="mt-8">
@@ -121,9 +148,7 @@ const Info = () => {
           </section>
 
           {/* Blog Slider Section */}
-          <section className="mt-8">
-            
-          </section>
+          <section className="mt-8"></section>
         </div>
       ) : (
         <div className="container mx-auto p-4 text-white">

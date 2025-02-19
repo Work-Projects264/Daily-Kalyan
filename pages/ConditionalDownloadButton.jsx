@@ -20,7 +20,7 @@ const ConditionalDownloadButton = () => {
   return (
     
     <div id="download-button">
-      <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">
+      <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">
         <div className="d-flex align-items-center justify-content-center gap-2" style={{ flexWrap: 'wrap' }}>
           <img src="/download-now.gif" alt="Download" className='w-60' />
         </div>

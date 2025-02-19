@@ -19,9 +19,10 @@ function Loader({show}) {
         bottom: 0,
         zIndex: 9999,
         overflow: 'hidden',
+        
         }}>
        
-      <img src={'/loading.png'} alt="Loading" height={100} width={100} style={{
+      <img src={'/loading.jpg'} alt="Loading" height={100} width={100} style={{
           animation: 'spin 2s linear infinite',
         }} />
     </div>

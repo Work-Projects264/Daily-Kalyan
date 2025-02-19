@@ -133,7 +133,7 @@ const GaliDesawar = () => {
                 <div
                   className={`game-play rounded-full w-16 h-16 flex flex-col p-3 items-center justify-center ${
                     !isClosed ? "cursor-pointer" : ""
-                  } ${isClosed ? "bg-red-500" : "bg-green-500"}`}
+                  } ${isClosed ? "" : ""}`}
                   onClick={() => {
                     const route = isClosed ? "/login" : `/game-dashboard/${game_name}/${game_id}`;
                     if (!isClosed) {
@@ -144,8 +144,21 @@ const GaliDesawar = () => {
                     }
                   }}
                 >
-                  <PlayCircleIcon className="text-4xl text-center  text-white" />
-                  <p className="text-white text-sm">{isClosed ? "Closed":"Play"}</p>
+                  <div className="flex flex-col items-center space-y-1 hover:cursor-pointer">
+                    {/* Play Icon - Always White */}
+                    <PlayCircleIcon className="text-4xl text-black" />
+
+                    {/* Status Text with Background Color */}
+                    <p
+                      className={`px-4 py-1 rounded-lg text-sm font-semibold text-white ${
+                        isClosed
+                          ? "bg-red-500"
+                          : "bg-green-500 hover:bg-green-600 cursor-pointer"
+                      }`}
+                    >
+                      {isClosed ? "Closed" : "Play"}
+                    </p>
+                  </div>
                 </div>
               </div>
 

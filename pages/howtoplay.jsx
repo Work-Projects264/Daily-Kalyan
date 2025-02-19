@@ -21,7 +21,7 @@ function Howtoplay() {
       <div className="bg-gray-900 p-8 rounded-xl shadow-2xl max-w-3xl w-full relative overflow-hidden">
         {/* Image Section */}
         <div className="mb-6">
-          <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk" download>
+          <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk" download>
             <img
               src="banner-img.png"
               alt="How to Play Image"

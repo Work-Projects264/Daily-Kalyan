@@ -16,7 +16,7 @@ export default function MilanMorning() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -144,7 +144,7 @@ export default function MilanMorning() {
           </p>
           <ul>
             <li>Fast Results: Get quick results without waiting too long.</li>
-            <li>Easy to Use: The platform works well on desktops, phones, tablets, and through the <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk" className="link">JodiPlay app</a>, so you can play online from anywhere.</li>
+            <li>Easy to Use: The platform works well on desktops, phones, tablets, and through the <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk" className="link">JodiPlay app</a>, so you can play online from anywhere.</li>
             <li>Multiple Markets: Besides Milan Morning, you can also play other Satta Matka games like Gali, Desawar, and more.</li>
             <li>Safe and Secure: JodiPlay ensures your information is protected while you enjoy the game.</li>
           </ul>

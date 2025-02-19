@@ -283,7 +283,7 @@ const HomeMain = () => {
                 <div
                   className={`game-play rounded-full w-16 h-16 flex flex-col  items-center justify-center ${
                     !isClosed && isAuthenticated ? "cursor-pointer" : ""
-                  } ${isClosed ? "bg-red-500" : "bg-green-500"}`}
+                  } ${isClosed ? "" : ""}`}
                   onClick={() => {
                     if (!isClosed && isAuthenticated) {
                       router.push({
@@ -292,12 +292,25 @@ const HomeMain = () => {
                       });
                     } else if (!isAuthenticated) {
                       window.location.href =
-                        "https://backend.jodiplay.com/logo/Jodi_Play.apk";
+                        "https://backend.jodiplay.com/logo/daily_kalyan.apk";
                     }
                   }}
                 >
-                  <PlayCircleIcon className="text-3xl text-white" />
-                  <p className="text-sm text-white">{isClosed ? "Closed" : "Play"}</p>
+                  <div className="flex flex-col items-center space-y-1 hover:cursor-pointer">
+                    {/* Play Icon - Always White */}
+                    <PlayCircleIcon className="text-4xl text-black" />
+
+                    {/* Status Text with Background Color */}
+                    <p
+                      className={`px-4 py-1 rounded-lg text-sm font-semibold text-white ${
+                        isClosed
+                          ? "bg-red-500"
+                          : "bg-green-500 hover:bg-green-600 cursor-pointer"
+                      }`}
+                    >
+                      {isClosed ? "Closed" : "Play"}
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -383,10 +396,10 @@ const HomeMain = () => {
 
                 {/* Play/Closed Button */}
                 <div
-                  className={`w-20 h-20 flex flex-col items-center justify-center rounded-full shadow-lg transition-transform duration-300 ${
+                  className={`w-20 h-20 flex flex-col items-center justify-center rounded-full  transition-transform duration-300 ${
                     isClosed
-                      ? "bg-red-500 opacity-80 cursor-not-allowed"
-                      : "bg-green-500 hover:scale-105 cursor-pointer"
+                      ? " opacity-80 cursor-not-allowed"
+                      : " hover:scale-105 cursor-pointer"
                   }`}
                   onClick={() => {
                     if (!isClosed) {
@@ -400,10 +413,21 @@ const HomeMain = () => {
                     }
                   }}
                 >
-                  <PlayCircleIcon className="text-4xl text-white drop-shadow-md" />
-                  <p className="text-xs text-white font-semibold mt-1 tracking-wide">
-                    {isClosed ? "Closed" : "Play"}
-                  </p>
+                  <div className="flex flex-col items-center space-y-1 hover:cursor-pointer">
+                    {/* Play Icon - Always White */}
+                    <PlayCircleIcon className="text-4xl text-black" />
+
+                    {/* Status Text with Background Color */}
+                    <p
+                      className={`px-4 py-1 rounded-lg text-sm font-semibold text-white ${
+                        isClosed
+                          ? "bg-red-500"
+                          : "bg-green-500 hover:bg-green-600 cursor-pointer"
+                      }`}
+                    >
+                      {isClosed ? "Closed" : "Play"}
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -494,29 +518,27 @@ const HomeMain = () => {
         <div></div>
       )}
 
+      {!isAuthenticated && (
+        <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">
+          <div className="fixed bottom-0 left-0 w-full px-4 z-40 bg-blue-600 overflow-hidden">
+            <button className="relative w-full flex items-center justify-center text-white font-bold py-3 rounded-lg shadow-md transition hover:bg-blue-700">
+              {/* Left Icon */}
+              <FaDownload className="absolute left-4 text-3xl text-white" />
 
+              {/* Main Content */}
+              <span className="text-lg font-semibold">
+                Download App to Play
+              </span>
 
-{!isAuthenticated && (
-  <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">
-    <div className="fixed bottom-0 left-0 w-full px-4 z-40 bg-blue-600 overflow-hidden">
-      <button className="relative w-full flex items-center justify-center text-white font-bold py-3 rounded-lg shadow-md transition hover:bg-blue-700">
-        
-        {/* Left Icon */}
-        <FaDownload className="absolute left-4 text-3xl text-white" />
+              {/* Right Icon */}
+              <FaDownload className="absolute right-4 text-3xl text-white" />
 
-        {/* Main Content */}
-        <span className="text-lg font-semibold">Download App to Play</span>
-
-        {/* Right Icon */}
-        <FaDownload className="absolute right-4 text-3xl text-white" />
-
-        {/* Shine Effect */}
-        <div className="absolute inset-0 bg-white opacity-10 animate-shine"></div>
-      </button>
-    </div>
-  </a>
-)}
-
+              {/* Shine Effect */}
+              <div className="absolute inset-0 bg-white opacity-10 animate-shine"></div>
+            </button>
+          </div>
+        </a>
+      )}
 
       {/* {showInfoModal()} */}
 
@@ -560,7 +582,7 @@ const HomeMain = () => {
                 />
                 {/* </Link> */}
                 <a
-                  href="https://backend.jodiplay.com/logo/Jodi_Play.apk"
+                  href="https://backend.jodiplay.com/logo/daily_kalyan.apk"
                   download
                 >
                   <div className="static_downloadbtn__empire btn-style sm-no-margin ">
@@ -574,12 +596,7 @@ const HomeMain = () => {
                 >
                   <p style={{ color: "#ffce41" }}>For Better User Experience</p>
                 </div>
-                <img
-                  src="certificate.webp"
-                  alt="certificate"
-                  className="mt-4"
-                  style={{ width: "95%" }}
-                />
+                
               </div>
             </div>
           </div>

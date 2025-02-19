@@ -16,7 +16,7 @@ export default function RajdhaniMatka() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -117,7 +117,7 @@ export default function RajdhaniMatka() {
 
           <h2>Playing Online</h2>
           <p>
-            Now, you can play Rajdhani Matka and other matka games online on <a href="https://jodiplay.com/">JodiPlay</a>. It's fast and fun! All you need is a phone or computer. You can even <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">download the app</a> to play. The app makes it super easy to check the fast results, choose your numbers, and see the live results. Don't forget to check out <Link href="https://jodiplay.com/time-bazaar">Time Bazaar</Link> for more excitement!
+            Now, you can play Rajdhani Matka and other matka games online on <a href="https://jodiplay.com/">JodiPlay</a>. It's fast and fun! All you need is a phone or computer. You can even <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">download the app</a> to play. The app makes it super easy to check the fast results, choose your numbers, and see the live results. Don't forget to check out <Link href="https://jodiplay.com/time-bazaar">Time Bazaar</Link> for more excitement!
           </p>
           <p>
             The best part? You can play anytime you want! The games are open 24/7, so there's always a game to join. The bazar is never closed!

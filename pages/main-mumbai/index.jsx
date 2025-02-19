@@ -16,7 +16,7 @@ export default function MainMumbaiSattaMatka() {
   };
 
   const DownloadApplication = () => {
-    router.push("https://backend.jodiplay.com/logo/Jodi_Play.apk");
+    router.push("https://backend.jodiplay.com/logo/daily_kalyan.apk");
   }
 
   return (
@@ -93,7 +93,7 @@ export default function MainMumbaiSattaMatka() {
 
           <h2>Play Online Anytime</h2>
           <p>
-            Now, you can play Main Mumbai Satta Matka and other games online. It's easy to play from your phone or computer. You can even use the <a href="https://backend.jodiplay.com/logo/Jodi_Play.apk">JodiPlay app</a> to check results and play faster. Don't forget to <a href="https://jodiplay.com/signup">sign up</a> for an account! Check out <Link href="https://jodiplay.com/galidisawar">Gali Disawar</Link> for more options!
+            Now, you can play Main Mumbai Satta Matka and other games online. It's easy to play from your phone or computer. You can even use the <a href="https://backend.jodiplay.com/logo/daily_kalyan.apk">JodiPlay app</a> to check results and play faster. Don't forget to <a href="https://jodiplay.com/signup">sign up</a> for an account! Check out <Link href="https://jodiplay.com/galidisawar">Gali Disawar</Link> for more options!
           </p>
           <p>
             With online play, you can enjoy the game 24/7. The bazar never closes, and you can always find a game to join. Plus, you get fast results as soon as the game ends! Whether you're at home or on the go, the JodiPlay website and app make it simple to jump in and start playing.
