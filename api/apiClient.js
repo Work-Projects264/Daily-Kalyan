@@ -33,7 +33,7 @@ axios.interceptors.request.use(
 
 // https://backend.jodiplay.com/logo/Jodi_Play.apk
 
-const baseUrl = "https://backend.jodiplay.com/"
+const baseUrl = "https://backend.dailykalyan.in/"
 
 function shouldSendToken(url) {
   const excludedEndpoints = [];
