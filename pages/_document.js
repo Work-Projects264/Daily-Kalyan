@@ -89,6 +89,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* <title>Jodi Play | The Best Online Satta Matka App for Fun and Wins</title> */}
+        <link rel="icon" href="/favicon.ico" />
         <title>
         Best Online Matka Play App - Download Now!
         </title>

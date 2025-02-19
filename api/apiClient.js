@@ -31,7 +31,9 @@ axios.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-const baseUrl = "https://backend.jodiplay.com/";
+// https://backend.jodiplay.com/logo/Jodi_Play.apk
+
+const baseUrl = "https://backend.jodiplay.com/"
 
 function shouldSendToken(url) {
   const excludedEndpoints = [];
